@@ -208,33 +208,25 @@ html,body{width:100%;height:100%;font-family:'Barlow',sans-serif;background:var(
 <div id="toast"></div>
 
 <script>
-var channels = {};
-var allChannelsLoaded = false;
-
-// ─── CARGA DESDE GITHUB ───
 var CANALES_URL = 'https://chocopopflow.github.io/app/canales.json';
+var channels = {};
 
-function cargarCanales() {
-  fetch(CANALES_URL)
-    .then(function(r){ return r.json(); })
-    .then(function(data) {
-      // Convertir formato del JSON al formato interno de la app
-      data.categorias.forEach(function(cat) {
-        channels[cat.nombre] = cat.canales.map(function(c) {
-          return { name: c.nombre, logo: c.logo, url: c.url };
-        });
+fetch(CANALES_URL)
+  .then(function(r){ return r.json(); })
+  .then(function(data) {
+    data.categorias.forEach(function(cat) {
+      channels[cat.nombre] = cat.canales.map(function(c) {
+        return { name: c.nombre, logo: c.logo, url: c.url };
       });
-      allChannelsLoaded = true;
-      iniciarApp();
-    })
-    .catch(function(err) {
-      console.error('Error cargando canales:', err);
-      // Si falla la carga, mostrar error en loader
-      document.querySelector('.ld-txt').textContent = 'ERROR AL CARGAR CANALES';
     });
-}
+    arrancarApp();
+  })
+  .catch(function(err) {
+    console.error('Error cargando canales:', err);
+    document.querySelector('.ld-txt').textContent = 'ERROR AL CARGAR CANALES';
+  });
 
-function iniciarApp() {
+function arrancarApp() {
 
 // Lista plana global
 var allChannels=(function(){var l=[];Object.values(channels).forEach(function(a){a.forEach(function(c){l.push(c);});});return l;})();
@@ -263,12 +255,11 @@ setTimeout(killLoader,2500);
 window.addEventListener('load',killLoader);
 
 function initApp(){
-  var primeraSeccion=Object.keys(channels)[0]||'Nacionales';
-  currentSection=primeraSeccion;
-  buildCats();renderSection(primeraSeccion);startClock();showHints();
-  var f=channels[primeraSeccion]&&channels[primeraSeccion][0];
+  buildCats();renderSection('Nacionales');startClock();showHints();
+  var f=channels['Nacionales'][0];
   if(f)setTimeout(function(){play(f,0);},600);
 }
+// initApp se llama desde arrancarApp() después del fetch
 
 // ─── RELOJ ───
 function startClock(){
@@ -528,11 +519,6 @@ function zapNumber(n){
   zapTimer=setTimeout(function(){var num=parseInt(zapBuffer,10);if(num>=1&&num<=allChannels.length)zapTo(num-1);zapBuffer='';},1200);
 }
 
-} // fin iniciarApp
-
-// Iniciar carga al cargar la página
-cargarCanales();
-
 // ─── TECLADO / CONTROL REMOTO ───
 window.addEventListener('keydown',function(e){
   var key=e.key,code=e.keyCode;
@@ -660,6 +646,8 @@ function showToast(msg){
   var t=document.getElementById('toast');t.textContent=msg;t.classList.add('show');
   clearTimeout(t._t);t._t=setTimeout(function(){t.classList.remove('show');},2000);
 }
+
+} // fin arrancarApp
 </script>
 </body>
 </html>
