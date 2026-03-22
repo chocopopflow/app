@@ -263,11 +263,12 @@ setTimeout(killLoader,2500);
 window.addEventListener('load',killLoader);
 
 function initApp(){
-  buildCats();renderSection('Nacionales');startClock();showHints();
-  var f=channels['Nacionales'][0];
+  var primeraSeccion=Object.keys(channels)[0]||'Nacionales';
+  currentSection=primeraSeccion;
+  buildCats();renderSection(primeraSeccion);startClock();showHints();
+  var f=channels[primeraSeccion]&&channels[primeraSeccion][0];
   if(f)setTimeout(function(){play(f,0);},600);
 }
-if(document.readyState==='loading'){document.addEventListener('DOMContentLoaded',initApp);}else{initApp();}
 
 // ─── RELOJ ───
 function startClock(){
