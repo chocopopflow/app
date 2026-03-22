@@ -211,8 +211,8 @@ video{
 const CANALES_URL = 'https://chocopopflow.github.io/app/canales.json';
 let channels = {};
 
-const cats = Object.keys(channels);
-let activeCat = cats[0];
+let cats = [];
+let activeCat = '';
 let aspectModes = ['cover','contain','fill'];
 let aspectIdx = 0;
 let controlsTimer;
@@ -401,6 +401,8 @@ wrap.addEventListener('touchend', function(e) {
 });
 
 function init() {
+  cats = Object.keys(channels);
+  activeCat = cats[0];
   renderCats();
   renderList();
   // Intentar reproducir el último canal visto
