@@ -1,0 +1,856 @@
+{
+  "categorias": [
+    {
+      "id": "nacionales",
+      "nombre": "Nacionales",
+      "canales": [
+        {
+          "nombre": "Telefe",
+          "url": "http://190.104.226.30/Live/870787012c00961adaf9b2304d704b57/telefe_720.m3u8",
+          "logo": "https://bestleague.world/img/telefe.png"
+        },
+        {
+          "nombre": "Telefe Internacional",
+          "url": "http://107.152.39.199:8030/hls/canal13.m3u8",
+          "logo": "https://bestleague.world/img/telefe.png"
+        },
+        {
+          "nombre": "El Trece",
+          "url": "https://live-01-02-eltrece.vodgc.net/eltrecetv/index.m3u8",
+          "logo": "https://bestleague.world/img/eltrece.webp"
+        },
+        {
+          "nombre": "El Trece Internacional",
+          "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/23.m3u8",
+          "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Eltrece_Internacional_2017.png/500px-Eltrece_Internacional_2017.png"
+        },
+        {
+          "nombre": "El Nueve",
+          "url": "http://107.152.39.199:8030/hls/canal7.m3u8",
+          "logo": "https://bestleague.world/img/nueve.webp"
+        },
+        {
+          "nombre": "TV Pública",
+          "url": "http://201.217.246.42:44310/Live/b10474c9b1ba4a0986b574d1211c065b/local-11_720.m3u8",
+          "logo": "https://bestleague.world/img/tvpublica.webp"
+        },
+        {
+          "nombre": "América",
+          "url": "https://prepublish.f.qaotic.net/a07/americahls-100056/playlist_720p.m3u8",
+          "logo": "https://bestleague.world/img/america.webp"
+        },
+        {
+          "nombre": "Net TV",
+          "url": "https://unlimited1-us.dps.live/nettv/nettv.smil/nettv/livestream1/playlist.m3u8",
+          "logo": "https://bestleague.world/img/nettv.webp"
+        }
+      ]
+    },
+    {
+      "id": "noticias",
+      "nombre": "Noticias",
+      "canales": [
+        {
+          "nombre": "TN",
+          "url": "https://live-01-01-tn.vodgc.net/TN24/index_TN24_1080.m3u8",
+          "logo": "https://bestleague.world/img/tn.png"
+        },
+        {
+          "nombre": "LN+",
+          "url": "http://201.217.246.42:44310/Live/a8a0dc318cc5a076f84bea2206893142/lntv_720.m3u8",
+          "logo": "https://bestleague.world/img/ln.webp"
+        },
+        {
+          "nombre": "A24",
+          "url": "https://g1.vxral-hor.transport.edge-access.net/a15/ngrp:a24-100056_all/a24-100056.m3u8",
+          "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/A24-logonuevo.svg/330px-A24-logonuevo.svg.png"
+        },
+        {
+          "nombre": "C5N",
+          "url": "http://201.217.246.42:44310/Live/a8a0dc318cc5a076f84bea2206893142/c5n_480.m3u8",
+          "logo": "https://bestleague.world/img/c5n.webp"
+        },
+        {
+          "nombre": "Crónica",
+          "url": "http://201.217.246.42:44310/Live/a8a0dc318cc5a076f84bea2206893142/CronicaTv_480.m3u8",
+          "logo": "https://bestleague.world/img/cronica.png"
+        },
+        {
+          "nombre": "Canal 26",
+          "url": "https://stream-gtlc.telecentro.net.ar/hls/canal26hls/main.m3u8",
+          "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcvleKnb8p-PUIm5xf4xBsPd74r1uZK4opdw&s"
+        },
+        {
+          "nombre": "Ar | 12",
+          "url": "http://201.217.246.42:44310/Live/b10474c9b1ba4a0986b574d1211c065b/local-21_720.m3u8",
+          "logo": "https://yt3.googleusercontent.com/FXY0jNjQWr7w5JKKzEZ1VqvRYoDqZNAwEQ77n4AK7IdQQhyRVjd69UUVFJ7xify6BUKdUuCcEQ=s900-c-k-c0x00ffffff-no-rj"
+        },
+        {
+          "nombre": "CNN Español",
+          "url": "http://201.217.246.42:44310/Live/a8a0dc318cc5a076f84bea2206893142/CNNesp.playlist.m3u8",
+          "logo": "https://static.epg.best/us/CNN.us.png"
+        },
+        {
+          "nombre": "CNN",
+          "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/18.m3u8",
+          "logo": "https://static.epg.best/us/CNN.us.png"
+        }
+      ]
+    },
+    {
+      "id": "deportes",
+      "nombre": "Deportes",
+      "canales": [
+        {
+          "nombre": "TNT Sports",
+          "url": "http://181.209.37.74:8001/play/a06z/48240581.m3u8",
+          "logo": "https://bestleague.world/img/tntar.svg"
+        },
+        {
+          "nombre": "ESPN Premium",
+          "url": "https://smarthard.click/hls/sabrouchespnpremiumarg/index.m3u8",
+          "logo": "https://bestleague.world/img/espnpr.webp"
+        },
+        {
+          "nombre": "ESPN",
+          "url": "http://201.217.246.42:44310/Live/b10474c9b1ba4a0986b574d1211c065b/local-94_720.m3u8",
+          "logo": "https://bestleague.world/img/espn.webp"
+        },
+        {
+          "nombre": "ESPN 2",
+          "url": "http://201.217.246.42:44310/Live/b10474c9b1ba4a0986b574d1211c065b/local-97_720.m3u8",
+          "logo": "https://bestleague.world/img/espn2.webp"
+        },
+        {
+          "nombre": "ESPN 3",
+          "url": "http://201.217.246.42:44310/Live/b10474c9b1ba4a0986b574d1211c065b/local-96_720.m3u8",
+          "logo": "https://bestleague.world/img/espn3.webp"
+        },
+        {
+          "nombre": "ESPN 4",
+          "url": "http://201.217.246.42:44310/Live/b10474c9b1ba4a0986b574d1211c065b/local-95_720.m3u8",
+          "logo": "https://bestleague.world/img/espn4.webp"
+        },
+        {
+          "nombre": "ESPN 5",
+          "url": "http://201.217.246.42:44310/Live/b10474c9b1ba4a0986b574d1211c065b/local-104_720.m3u8",
+          "logo": "https://bestleague.world/img/espn5.webp"
+        },
+        {
+          "nombre": "ESPN 6",
+          "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/25.m3u8",
+          "logo": "https://bestleague.world/img/espn6.webp"
+        },
+        {
+          "nombre": "ESPN 7",
+          "url": "http://201.217.246.42:44310/Live/b10474c9b1ba4a0986b574d1211c065b/local-106_720.m3u8",
+          "logo": "https://bestleague.world/img/espn7.png"
+        },
+        {
+          "nombre": "Fox Sports",
+          "url": "http://201.217.246.42:44310/Live/b10474c9b1ba4a0986b574d1211c065b/local-91_720.m3u8",
+          "logo": "https://bestleague.world/img/foxnew.png"
+        },
+        {
+          "nombre": "Fox Sports 2",
+          "url": "http://201.217.246.42:44310/Live/b10474c9b1ba4a0986b574d1211c065b/local-93_720.m3u8",
+          "logo": "https://bestleague.world/img/foxnew2.png"
+        },
+        {
+          "nombre": "Fox Sports 3",
+          "url": "http://201.217.246.42:44310/Live/b10474c9b1ba4a0986b574d1211c065b/local-92_720.m3u8",
+          "logo": "https://bestleague.world/img/foxnew3.png"
+        },
+        {
+          "nombre": "DSports",
+          "url": "https://smarthard.click/hls/sabrouchdirectvarg/index.m3u8",
+          "logo": "https://bestleague.world/img/dsports.webp"
+        },
+        {
+          "nombre": "DSports 2",
+          "url": "https://bestleague.world/img/dsports2.wefafafsbp",
+          "logo": "https://bestleague.world/img/dsports2.webp"
+        },
+        {
+          "nombre": "DSports+",
+          "url": "https://unlimited1-us.dps.live/dsportsplus/dsportsplus.smil/playlist.m3u8",
+          "logo": "http://bestleague.world/img/dsportsplus.webp"
+        },
+        {
+          "nombre": "TyC Sports",
+          "url": "http://201.217.246.42:44310/Live/b10474c9b1ba4a0986b574d1211c065b/local-90_720.m3u8",
+          "logo": "https://bestleague.world/img/tyc.webp"
+        },
+        {
+          "nombre": "TyC Sports Internacional",
+          "url": "http://todoplus.digital:80/hhasg3as/hhasg3as/722820.m3u8",
+          "logo": "https://bestleague.world/img/tyc.webp"
+        },
+        {
+          "nombre": "DeporTV",
+          "url": "http://201.217.246.42:44310/Live/a8a0dc318cc5a076f84bea2206893142/deportv_720.m3u8",
+          "logo": "https://bestleague.world/img/deportv.webp"
+        },
+        {
+          "nombre": "BeIN Sports Xtra Español",
+          "url": "https://dc1644a9jazgj.cloudfront.net/beIN_Sports_Xtra_Espanol.m3u8",
+          "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSO3tjm12tbA0n62V_asDcisjmp2sMXuwHyiw&s"
+        },
+        {
+          "nombre": "DAZN 1",
+          "url": "http://cb163385.amazzin.pw/iptv/MLLNWFWVC3H9YNUQTDBDHZGK/31831/index.m3u8",
+          "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXKMNgAsBX4zE503lnlTstlMaH-vWkrjXQKg&s"
+        },
+        {
+          "nombre": "DAZN 2",
+          "url": "http://cb163385.amazzin.pw/iptv/MLLNWFWVC3H9YNUQTDBDHZGK/31832/index.m3u8",
+          "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSM2mqIdPJw8FhvP7wlZSIgfT9zwqnsM6dKFw&s"
+        },
+        {
+          "nombre": "DAZN F1",
+          "url": "http://cb163385.amazzin.pw/iptv/MLLNWFWVC3H9YNUQTDBDHZGK/31834/index.m3u8",
+          "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvFTwR9nBkTcUn3Gqqe_H-xo4JrstVVAX_8g&s"
+        },
+        {
+          "nombre": "DAZN Combat",
+          "url": "https://dazn-combat-rakuten.amagi.tv/hls/amagi_hls_data_rakutenAA-dazn-combat-rakuten/CDN/master.m3u8",
+          "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQI-i0HN04ifM0O15STDM1dUYZCpA8Cqp7GYA&s"
+        },
+        {
+          "nombre": "NBA",
+          "url": "https://unlimited1-us.dps.live/nba/nba.smil/playlist.m3u8",
+          "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/03/National_Basketball_Association_logo.svg/200px-National_Basketball_Association_logo.svg.png"
+        },
+        {
+          "nombre": "TUDN",
+          "url": "http://212.102.60.231/TUDN/tracks-v1a1/mono.ts.m3u8",
+          "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMR0fra1g5-0NhBUDyQ8DH2aYuDdI5L5x7Ew&s"
+        },
+        {
+          "nombre": "FIFA+",
+          "url": "https://6c849fb3.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/TEctbXhfRklGQVBsdXNTcGFuaXNoLTFfSExT/playlist.m3u8",
+          "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgdjcQPz0lkesoyahl_R96vJWOmjVGOn8bMw&s"
+        },
+        {
+          "nombre": "Azteca Deportes",
+          "url": "https://aztecalivehls-lh.akamaihd.net/i/aztecadeportes_1@643434/index.m3u8",
+          "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Azteca_Deportes_logo.svg/320px-Azteca_Deportes_logo.svg.png"
+        },
+        {
+          "nombre": "La Liga",
+          "url": "http://190.92.10.66:4000/play/a001/index.m3u8",
+          "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2HL3gCY5bIhwpB2S6F0M4vfk8ugC2ONcLOA&s"
+        },
+        {
+          "nombre": "TNT Sports Chile",
+          "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/86.m3u8",
+          "logo": "https://yt3.googleusercontent.com/YhkT0CoQHiP4v9rU_GpBySW3ZrzTq8pH0Oqpk2omcBCDB3ZaQu_jUM-KxxRfSK915km3vIEfUQ=s900-c-k-c0x00ffffff-no-rj"
+        },
+        {
+          "nombre": "ESPN Premium Chile",
+          "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/116.m3u8",
+          "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCzkGsoLmoFCA7w-CuXo9UwDZ-MgJzaga9nQ&s"
+        },
+        {
+          "nombre": "Win Sports",
+          "url": "https://unlimited1-us.dps.live/winsports/winsports.smil/playlist.m3u8",
+          "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Win_Sports_logo.svg/320px-Win_Sports_logo.svg.png"
+        },
+        {
+          "nombre": "Canal del Fútbol",
+          "url": "https://unlimited1-us.dps.live/canalfutbol/canalfutbol.smil/playlist.m3u8",
+          "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Canal_del_F%C3%BAtbol_logo.svg/240px-Canal_del_F%C3%BAtbol_logo.svg.png"
+        },
+        {
+          "nombre": "AM Sports",
+          "url": "http://138.59.227.28:8000/play/a01v/index.m3u8",
+          "logo": "https://yt3.googleusercontent.com/ytc/AIdro_lecXB3yop6mI09ieucofjAhM0vS1ORuZga1KB_nLhqeA=s900-c-k-c0x00ffffff-no-rj"
+        },
+        {
+          "nombre": "Claro Sports",
+          "url": "http://200.12.41.194:8000/play/a0al/index.m3u8",
+          "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSx-M9JFTNb9BpL4Q6FTgkfZnr6olFi_GekTQ&s"
+        },
+        {
+          "nombre": "Claro Sports 2",
+          "url": "http://200.12.41.194:8000/play/a0am/index.m3u8",
+          "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSx-M9JFTNb9BpL4Q6FTgkfZnr6olFi_GekTQ&s"
+        },
+        {
+          "nombre": "Claro Sports 3",
+          "url": "http://200.12.41.194:8000/play/a089/index.m3u8",
+          "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSx-M9JFTNb9BpL4Q6FTgkfZnr6olFi_GekTQ&s"
+        },
+        {
+          "nombre": "Bundesliga",
+          "url": "http://190.92.10.66:4000/play/a006/index.m3u8",
+          "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTs9vvhXDSCKVOMjo-igQPk8OMvxgAGEYzpcA&s"
+        },
+        {
+          "nombre": "ESPN Deportes USA",
+          "url": "http://190.92.10.66:4000/play/a003/index.m3u8",
+          "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2HL3gCY5bIhwpB2S6F0M4vfk8ugC2ONcLOA&s"
+        },
+        {
+          "nombre": "TUDN USA",
+          "url": "http://190.92.10.66:4000/play/a002/index.m3u8",
+          "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRl0f5yk_6fIIIdPZduW9sscGmD-0D6GBxFUQ&s"
+        },
+        {
+          "nombre": "Univision Miami",
+          "url": "http://190.92.10.66:4000/play/a005/index.m3u8",
+          "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTT95oNVU7pmxFx1D8MR4S-oektfgSaebfmqA&s"
+        },
+        {
+          "nombre": "La Liga M+",
+          "url": "http://cb163385.amazzin.pw/iptv/MLLNWFWVC3H9YNUQTDBDHZGK/31853/index.m3u8",
+          "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJNMcXu72giDN0zF8zULQ73zSjm_AbZPxmxA&s"
+        },
+        {
+          "nombre": "Liga de Campeones M+",
+          "url": "http://cb163385.amazzin.pw/iptv/MLLNWFWVC3H9YNUQTDBDHZGK/31842/index.m3u8",
+          "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEU5t1OIQiWtE772ry9DH49TqvaEc-NiMO0Q&s"
+        },
+        {
+          "nombre": "Golf M+",
+          "url": "http://cb163385.amazzin.pw/iptv/MLLNWFWVC3H9YNUQTDBDHZGK/31844/index.m3u8",
+          "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpytkMbjSHHrliIFtiS-3SkOoUFcGVB42Lqg&s"
+        },
+        {
+          "nombre": "Vamos M+",
+          "url": "http://cb163385.amazzin.pw/iptv/MLLNWFWVC3H9YNUQTDBDHZGK/31867/index.m3u8",
+          "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcC2e7qi3GWsyhzO905v6IfqmK79iczKGiMg&s"
+        },
+        {
+          "nombre": "Real Madrid TV",
+          "url": "http://cb163385.amazzin.pw/iptv/MLLNWFWVC3H9YNUQTDBDHZGK/31847/index.m3u8",
+          "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5GaQcvncK3h-LvMI_qsjLiCjdfW4o7rNkYw&s"
+        },
+        {
+          "nombre": "Eurosports 1",
+          "url": "http://cb163385.amazzin.pw/iptv/MLLNWFWVC3H9YNUQTDBDHZGK/31845/index.m3u8",
+          "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKkY7DRDXucZOBkxlMFaclWrcE6HCGMBHLpA&s"
+        },
+        {
+          "nombre": "Eurosports 2",
+          "url": "http://cb163385.amazzin.pw/iptv/MLLNWFWVC3H9YNUQTDBDHZGK/31848/index.m3u8",
+          "logo": "https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/112015/eurosport_2.png?itok=tDDT28My"
+        }
+      ]
+    },
+    {
+      "id": "películas",
+      "nombre": "Películas",
+      "canales": [
+        {
+          "nombre": "Cine AR",
+          "url": "http://201.217.246.42:44310/Live/b10474c9b1ba4a0986b574d1211c065b/local-20_720.m3u8",
+          "logo": "https://bestleague.world/img/cinear.png"
+        },
+        {
+          "nombre": "Cinemax",
+          "url": "http://201.217.246.42:44310/Live/b10474c9b1ba4a0986b574d1211c065b/local-61_720.m3u8",
+          "logo": "https://bestleague.world/img/cinemax.webp"
+        },
+        {
+          "nombre": "Cinecanal",
+          "url": "http://201.217.246.42:44310/Live/b10474c9b1ba4a0986b574d1211c065b/local-62_720.m3u8",
+          "logo": "https://bestleague.world/img/cinecanal.webp"
+        },
+        {
+          "nombre": "TNT",
+          "url": "http://201.217.246.42:44310/Live/b10474c9b1ba4a0986b574d1211c065b/local-66_720.m3u8",
+          "logo": "https://bestleague.world/img/tnt.webp"
+        },
+        {
+          "nombre": "TNT Series",
+          "url": "http://201.217.246.42:44310/Live/b10474c9b1ba4a0986b574d1211c065b/local-64_720.m3u8",
+          "logo": "https://bestleague.world/img/tntseries.webp"
+        },
+        {
+          "nombre": "TNT Novelas",
+          "url": "http://201.217.246.42:44310/Live/b10474c9b1ba4a0986b574d1211c065b/local-65_720.m3u8",
+          "logo": "http://bestleague.world/img/tntnovelas.png"
+        },
+        {
+          "nombre": "Studio Universal",
+          "url": "http://201.217.246.42:44310/Live/b10474c9b1ba4a0986b574d1211c065b/local-67_720.m3u8",
+          "logo": "https://bestleague.world/img/studio.webp"
+        },
+        {
+          "nombre": "Star Channel",
+          "url": "http://201.217.246.42:44310/Live/b10474c9b1ba4a0986b574d1211c065b/local-68_720.m3u8",
+          "logo": "https://bestleague.world/img/star.webp"
+        },
+        {
+          "nombre": "Space",
+          "url": "http://201.217.246.42:44310/Live/b10474c9b1ba4a0986b574d1211c065b/local-69_720.m3u8",
+          "logo": "https://bestleague.world/img/space.webp"
+        },
+        {
+          "nombre": "Sony Channel",
+          "url": "http://201.217.246.42:44310/Live/b10474c9b1ba4a0986b574d1211c065b/local-70_720.m3u8",
+          "logo": "https://bestleague.world/img/sony.webp"
+        },
+        {
+          "nombre": "HBO",
+          "url": "http://201.217.246.42:44310/Live/b10474c9b1ba4a0986b574d1211c065b/local-102_720.m3u8",
+          "logo": "https://bestleague.world/img/hbo.webp"
+        },
+        {
+          "nombre": "HBO 2",
+          "url": "http://201.217.246.42:44310/Live/b10474c9b1ba4a0986b574d1211c065b/local-105_720.m3u8",
+          "logo": "https://bestleague.world/img/hbo2.webp"
+        },
+        {
+          "nombre": "HBO +",
+          "url": "http://201.217.246.42:44310/Live/b10474c9b1ba4a0986b574d1211c065b/local-109_720.m3u8",
+          "logo": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Logohboplus2019.svg"
+        },
+        {
+          "nombre": "HBO Family",
+          "url": "http://201.217.246.42:44310/Live/b10474c9b1ba4a0986b574d1211c065b/local-101_720.m3u8",
+          "logo": "https://bestleague.world/img/hbofam.webp"
+        },
+        {
+          "nombre": "HBO Xtreme",
+          "url": "http://201.217.246.42:44310/Live/b10474c9b1ba4a0986b574d1211c065b/local-103_720.m3u8",
+          "logo": "https://bestleague.world/img/hboxtreme.webp"
+        },
+        {
+          "nombre": "HBO Mundi",
+          "url": "http://201.217.246.42:44310/Live/b10474c9b1ba4a0986b574d1211c065b/local-110_720.m3u8",
+          "logo": "https://bestleague.world/img/hbomundi.webp"
+        },
+        {
+          "nombre": "HBO Pop",
+          "url": "http://201.217.246.42:44310/Live/b10474c9b1ba4a0986b574d1211c065b/local-108_720.m3u8",
+          "logo": "https://bestleague.world/img/hbopop.webp"
+        },
+        {
+          "nombre": "HBO Signature",
+          "url": "http://201.217.246.42:44310/Live/b10474c9b1ba4a0986b574d1211c065b/local-107_720.m3u8",
+          "logo": "https://bestleague.world/img/hbosig.webp"
+        },
+        {
+          "nombre": "Cine Familiar",
+          "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/14.m3u8",
+          "logo": "https://i.vimeocdn.com/video/1805384875-cf73b73bd6792b04d49146e0901764d40baee49d8be688930d94fedc58ef5445-d"
+        },
+        {
+          "nombre": "Cine Hispano",
+          "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/15.m3u8",
+          "logo": "https://i.vimeocdn.com/video/1805386680-16b76e008e4748c644da30c0d8d4a2bf69a759c89c3fdde4d733953429dcd92e-d"
+        },
+        {
+          "nombre": "Cine Premium",
+          "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/16.m3u8",
+          "logo": "https://i.vimeocdn.com/video/1805384456-4e48c4e9748b9b5158e24e4ddd4161c17072f1158d8854c9eff62481e865a1ac-d"
+        },
+        {
+          "nombre": "Universal +",
+          "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/62.m3u8",
+          "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Universal_Plus_logo.png/1280px-Universal_Plus_logo.png"
+        },
+        {
+          "nombre": "Universal Cinema",
+          "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/61.m3u8",
+          "logo": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Universal_Cinema_2021.png"
+        },
+        {
+          "nombre": "Universal Crime",
+          "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/63.m3u8",
+          "logo": "https://static.wikia.nocookie.net/logopedia/images/e/ed/Universal_Crime.svg/revision/latest/scale-to-width-down/250?cb=20220311032018"
+        },
+        {
+          "nombre": "Universal Premiere",
+          "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/64.m3u8",
+          "logo": "https://static.wikia.nocookie.net/logopedia/images/3/3b/Universal_Premiere.svg/revision/latest/scale-to-width-down/250?cb=20220311031855"
+        },
+        {
+          "nombre": "Universal Reality",
+          "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/65.m3u8",
+          "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Universal_Reality.svg/960px-Universal_Reality.svg.png"
+        }
+      ]
+    },
+    {
+      "id": "infantiles",
+      "nombre": "Infantiles",
+      "canales": [
+        {
+          "nombre": "Cartoonito",
+          "url": "http://201.217.246.42:44310/Live/b10474c9b1ba4a0986b574d1211c065b/local-30_720.m3u8",
+          "logo": "https://bestleague.world/img/cart.webp"
+        },
+        {
+          "nombre": "Disney Channel",
+          "url": "http://201.217.246.42:44310/Live/b10474c9b1ba4a0986b574d1211c065b/local-32_720.m3u8",
+          "logo": "https://bestleague.world/img/disney.webp"
+        },
+        {
+          "nombre": "Disney Junior",
+          "url": "http://201.217.246.42:44310/Live/b10474c9b1ba4a0986b574d1211c065b/local-35_720.m3u8",
+          "logo": "https://bestleague.world/img/disneyjr.webp"
+        },
+        {
+          "nombre": "Disney XD",
+          "url": "https://cdn-main.lolokoko.tv/DisneyXD.stream/playlist.m3u8",
+          "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Disney_XD_logo.svg/320px-Disney_XD_logo.svg.png"
+        },
+        {
+          "nombre": "Nickelodeon",
+          "url": "http://201.217.246.42:44310/Live/b10474c9b1ba4a0986b574d1211c065b/local-33_720.m3u8",
+          "logo": "https://bestleague.world/img/nick.png"
+        },
+        {
+          "nombre": "Nick Jr.",
+          "url": "https://cdn-main.lolokoko.tv/NickJr.stream/playlist.m3u8",
+          "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Nick_Jr._logo_2009.svg/240px-Nick_Jr._logo_2009.svg.png"
+        },
+        {
+          "nombre": "Cartoon Network",
+          "url": "http://201.217.246.42:44310/Live/b10474c9b1ba4a0986b574d1211c065b/local-31_720.m3u8",
+          "logo": "https://bestleague.world/img/cn.webp"
+        },
+        {
+          "nombre": "Boomerang",
+          "url": "https://cdn-main.lolokoko.tv/Boomerang.stream/playlist.m3u8",
+          "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Boomerang_2015_logo.svg/320px-Boomerang_2015_logo.svg.png"
+        },
+        {
+          "nombre": "Discovery Kids",
+          "url": "http://201.217.246.42:44310/Live/b10474c9b1ba4a0986b574d1211c065b/local-34_720.m3u8",
+          "logo": "https://bestleague.world/img/diskids.webp"
+        },
+        {
+          "nombre": "Paka Paka",
+          "url": "http://201.217.246.42:44310/Live/b10474c9b1ba4a0986b574d1211c065b/local-36_720.m3u8",
+          "logo": "https://bestleague.world/img/pakapaka.png"
+        },
+        {
+          "nombre": "Baby TV",
+          "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/11.m3u8",
+          "logo": "https://upload.wikimedia.org/wikipedia/commons/2/21/LogoBabyTV-2021-MAIN_logo.png"
+        },
+        {
+          "nombre": "Nat Geo Kids",
+          "url": "https://unlimited1-us.dps.live/natgeokids/natgeokids.smil/playlist.m3u8",
+          "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/National-geographic-channel-hd-logo.png/240px-National-geographic-channel-hd-logo.png"
+        },
+        {
+          "nombre": "CBeebies",
+          "url": "https://unlimited1-us.dps.live/cbeebies/cbeebies.smil/playlist.m3u8",
+          "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/CBeebies_logo_2022.svg/320px-CBeebies_logo_2022.svg.png"
+        }
+      ]
+    },
+    {
+      "id": "musica",
+      "nombre": "Música",
+      "canales": [
+        {
+          "nombre": "MTV",
+          "url": "http://201.217.246.42:44310/Live/b10474c9b1ba4a0986b574d1211c065b/local-50_720.m3u8",
+          "logo": "https://bestleague.world/img/mtv.webp"
+        },
+        {
+          "nombre": "Quiero Música",
+          "url": "http://201.217.246.42:44310/Live/b10474c9b1ba4a0986b574d1211c065b/local-51_720.m3u8",
+          "logo": "https://bestleague.world/img/quiero.webp"
+        },
+        {
+          "nombre": "Stingray iConcerts",
+          "url": "http://201.217.246.42:44310/Live/b10474c9b1ba4a0986b574d1211c065b/local-111_720.m3u8",
+          "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRs9B0Xa1ZbCgCy7IegbkJfZae3v9fj4nKe6A&s"
+        },
+        {
+          "nombre": "HTV",
+          "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/40.m3u8",
+          "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbdcuCAVXJ3M8sCdExvCFb3yDGPwRjloNb7w&s"
+        }
+      ]
+    },
+    {
+      "id": "variedades",
+      "nombre": "Variedades",
+      "canales": [
+        {
+          "nombre": "Animal Planet",
+          "url": "http://201.217.246.42:44310/Live/b10474c9b1ba4a0986b574d1211c065b/local-45_720.m3u8",
+          "logo": "https://bestleague.world/img/aplanet.webp"
+        },
+        {
+          "nombre": "Discovery",
+          "url": "http://201.217.246.42:44310/Live/b10474c9b1ba4a0986b574d1211c065b/local-44_720.m3u8",
+          "logo": "https://bestleague.world/img/discovery.webp"
+        },
+        {
+          "nombre": "Discovery ID",
+          "url": "http://201.217.246.42:44310/Live/b10474c9b1ba4a0986b574d1211c065b/local-42_720.m3u8",
+          "logo": "https://bestleague.world/img/id.webp"
+        },
+        {
+          "nombre": "Discovery HyH",
+          "url": "http://201.217.246.42:44310/Live/b10474c9b1ba4a0986b574d1211c065b/local-43_720.m3u8",
+          "logo": "https://bestleague.world/img/hyh.webp"
+        },
+        {
+          "nombre": "A&E",
+          "url": "http://201.217.246.42:44310/Live/b10474c9b1ba4a0986b574d1211c065b/local-71_720.m3u8",
+          "logo": "https://bestleague.world/img/ae.webp"
+        },
+        {
+          "nombre": "History Channel",
+          "url": "http://201.217.246.42:44310/Live/b10474c9b1ba4a0986b574d1211c065b/local-40_720.m3u8",
+          "logo": "https://bestleague.world/img/history.webp"
+        },
+        {
+          "nombre": "History Channel 2",
+          "url": "http://201.217.246.42:44310/Live/b10474c9b1ba4a0986b574d1211c065b/local-41_720.m3u8",
+          "logo": "https://bestleague.world/img/history2.webp"
+        },
+        {
+          "nombre": "Nat Geo",
+          "url": "http://201.217.246.42:44310/Live/b10474c9b1ba4a0986b574d1211c065b/local-46_720.m3u8",
+          "logo": "https://bestleague.world/img/natgeo.webp"
+        },
+        {
+          "nombre": "Comedy Central",
+          "url": "http://201.217.246.42:44310/Live/b10474c9b1ba4a0986b574d1211c065b/local-60_720.m3u8",
+          "logo": "https://bestleague.world/img/comedy.webp"
+        },
+        {
+          "nombre": "FX",
+          "url": "http://201.217.246.42:44310/Live/b10474c9b1ba4a0986b574d1211c065b/local-72_720.m3u8",
+          "logo": "https://bestleague.world/img/fx.webp"
+        },
+        {
+          "nombre": "Warner Channel",
+          "url": "http://201.217.246.42:44310/Live/b10474c9b1ba4a0986b574d1211c065b/local-73_720.m3u8",
+          "logo": "https://bestleague.world/img/warner.webp"
+        },
+        {
+          "nombre": "Volver",
+          "url": "http://201.217.246.42:44310/Live/b10474c9b1ba4a0986b574d1211c065b/local-74_720.m3u8",
+          "logo": "https://bestleague.world/img/volver.webp"
+        }
+      ]
+    },
+    {
+      "id": "internacional",
+      "nombre": "Internacional",
+      "canales": [
+        {
+          "nombre": "DW Español",
+          "url": "https://dwamdstream104.akamaized.net/hls/live/2015530/dwstream104/master.m3u8",
+          "logo": "https://w7.pngwing.com/pngs/23/40/png-transparent-logo-deutsche-welle-dw-tv-dw-espanol-lacrosse-talk-radio-television-blue-text.png"
+        },
+        {
+          "nombre": "France 24",
+          "url": "https://live.france24.com/hls/live/2037220-b/F24_ES_HI_HLS/master_5000.m3u8",
+          "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuRHfypZvhpJ9RAGl60tedaWV8GD-8O0nOaA&s"
+        },
+        {
+          "nombre": "RT Español",
+          "url": "https://rt-esp.rttv.com/live/rtesp/playlist.m3u8",
+          "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOEr1u_DzujuwH-547ixoy6shpNwk3ramY-Q&s"
+        },
+        {
+          "nombre": "Telesur",
+          "url": "https://mblesmain01.telesur.ultrabase.net/mbliveMain/hd/chunklist.m3u8",
+          "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvDFh_muFNm3RShgTAKqaNKf68J1u8V_Wxfw&s"
+        },
+        {
+          "nombre": "BBC World",
+          "url": "https://unlimited1-us.dps.live/bbcworld/bbcworld.smil/playlist.m3u8",
+          "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/BBC_World_News_2022.svg/320px-BBC_World_News_2022.svg.png"
+        },
+        {
+          "nombre": "Al Jazeera (English)",
+          "url": "https://live-hls-web-aje-fa.getaj.net/AJE/03.m3u8",
+          "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfXB67Y3PI8EwnjI9zwjeeYMhk2iaWQnvDkQ&s"
+        },
+        {
+          "nombre": "Al Jazeera (Árabe)",
+          "url": "https://live-hls-web-aja-fa.getaj.net/AJA/05.m3u8",
+          "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfXB67Y3PI8EwnjI9zwjeeYMhk2iaWQnvDkQ&s"
+        },
+        {
+          "nombre": "TCM",
+          "url": "https://unlimited1-us.dps.live/tcm/tcm.smil/playlist.m3u8",
+          "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/TCM_Logo.svg/320px-TCM_Logo.svg.png"
+        },
+        {
+          "nombre": "Canal 10 Uruguay",
+          "url": "https://unlimited1-us.dps.live/canal10uy/canal10uy.smil/playlist.m3u8",
+          "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Canal_10_Uruguay.svg/240px-Canal_10_Uruguay.svg.png"
+        },
+        {
+          "nombre": "Canal 12 Uruguay",
+          "url": "https://unlimited1-us.dps.live/canal12uy/canal12uy.smil/playlist.m3u8",
+          "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Canal_12_Uruguay_logo.svg/240px-Canal_12_Uruguay_logo.svg.png"
+        },
+        {
+          "nombre": "KPop Mix",
+          "url": "https://cloud.tvomix.com/KPOPMIX/index.m3u8",
+          "logo": ""
+        },
+        {
+          "nombre": "TVE",
+          "url": "http://201.217.246.42:44310/Live/b10474c9b1ba4a0986b574d1211c065b/local-23_720.m3u8",
+          "logo": "https://bestleague.world/img/tvees.png"
+        },
+        {
+          "nombre": "Telemundo HD",
+          "url": "http://201.217.246.42:44310/Live/b10474c9b1ba4a0986b574d1211c065b/local-26_720.m3u8",
+          "logo": "https://bestleague.world/img/telemundo.png"
+        }
+      ]
+    },
+    {
+      "id": "granhermano",
+      "nombre": "GranHermano",
+      "canales": [
+        {
+          "nombre": "Gran Hermano 24/7",
+          "url": "http://todoplus.digital:80/hhasg3as/hhasg3as/749367.m3u8",
+          "logo": "https://www.totalmedios.com/img/noticias/2026/02/6983350f2be4e_838x390.jpg"
+        },
+        {
+          "nombre": "Gran Hermano | CAM 1",
+          "url": "http://todoplus.digital:80/hhasg3as/hhasg3as/749368.m3u8",
+          "logo": "https://www.totalmedios.com/img/noticias/2026/02/6983350f2be4e_838x390.jpg"
+        },
+        {
+          "nombre": "Gran Hermano | CAM 2",
+          "url": "http://todoplus.digital:80/hhasg3as/hhasg3as/749369.m3u8",
+          "logo": "https://www.totalmedios.com/img/noticias/2026/02/6983350f2be4e_838x390.jpg"
+        },
+        {
+          "nombre": "Gran Hermano | CAM 3",
+          "url": "http://todoplus.digital:80/hhasg3as/hhasg3as/749370.m3u8",
+          "logo": "https://www.totalmedios.com/img/noticias/2026/02/6983350f2be4e_838x390.jpg"
+        },
+        {
+          "nombre": "Gran Hermano | MultiCAM",
+          "url": "http://todoplus.digital:80/hhasg3as/hhasg3as/749371.m3u8",
+          "logo": "https://www.totalmedios.com/img/noticias/2026/02/6983350f2be4e_838x390.jpg"
+        }
+      ]
+    },
+    {
+      "id": "brasil",
+      "nombre": "Brasil",
+      "canales": [
+        {
+          "nombre": "Com Brasil TV",
+          "url": "https://br5093.streamingdevideo.com.br/abc/abc/playlist.m3u8",
+          "logo": "https://play-lh.googleusercontent.com/KuYqSO7zeUCYt86EawjvcaGSAGJjvgsZfc-R3z_8mZxDU_lRoG8jr_5z_1FmJL4fi98EsUNaBRjdYpuO0HDtmw"
+        },
+        {
+          "nombre": "TV Brasil",
+          "url": "https://tvbrasil-stream.ebc.com.br/index.m3u8",
+          "logo": "https://imagens.ebc.com.br/PMZleVrbSYGeZKaLeiRIEDNgx98=/1600x800/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2025/01/28/nova_logo_tv_brasil.jpg"
+        },
+        {
+          "nombre": "TV Itapé",
+          "url": "https://stream01.msolutionbrasil.com.br/hls/tvitape/live.m3u8",
+          "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNw7K4k8vBuKSE36eJBGQI7Q9UO9NNQL3FEA&s"
+        },
+        {
+          "nombre": "CNBC",
+          "url": "https://cr7v.short.gy/ManoTV/TimesBrasil/Whats75991634025/CNBC/Index.m3u8",
+          "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmH5rj1nAWBD1nFA2K7fs_mPOSeZOk7YWufA&s"
+        }
+      ]
+    },
+    {
+      "id": "chile",
+      "nombre": "Chile",
+      "canales": [
+        {
+          "nombre": "Chilevisión",
+          "url": "https://redirector.rudo.video/hls-video/10b92cafdf3646cbc1e727f3dc76863621a327fd/chv/chv.smil/playlist.m3u8?PlaylistM3UCL",
+          "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8K1Ms1u8WoR1IhodwxjK0nLqRdFJbH_p3Qw&s"
+        },
+        {
+          "nombre": "13 Cultura",
+          "url": "https://origin.dpsgo.com/ssai/event/GI-9cp_bT8KcerLpZwkuhw/master.m3u8",
+          "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSt7mQS5ZnTFe3ecmaGNzb85G8paCbHWC8g8Q&s"
+        },
+        {
+          "nombre": "TVN 3",
+          "url": "https://mdstrm.com/live-stream-playlist/5653641561b4eba30a7e4929.m3u8",
+          "logo": "https://www.tvn.cl/tvn/site/artic/20230724/imag/foto_0000001820230724110258/Screenshot_15.jpg"
+        },
+        {
+          "nombre": "TVU Concepción",
+          "url": "https://unlimited1-cl-isp.dps.live/tvu/tvu.smil/playlist.m3u8",
+          "logo": "https://yt3.googleusercontent.com/ytc/AIdro_k3dmovllmj7WbQ7ypb1X3AyI_LHnd2PD7pu7L-Dt3K5cI=s900-c-k-c0x00ffffff-no-rj"
+        },
+        {
+          "nombre": "VClassicTV",
+          "url": "https://5eaccbab48461.streamlock.net:1936/8112/8112/playlist.m3u8",
+          "logo": "https://pbs.twimg.com/profile_images/1961865035409485824/ff5EXMzQ.jpg"
+        },
+        {
+          "nombre": "Mega",
+          "url": "https://unlimited2-cl-isp.dps.live/mega/mega.smil/playlist.m3u8?PlaylistM3UCL",
+          "logo": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Logotipo_de_Mega_%282020-%29.svg"
+        },
+        {
+          "nombre": "RTC",
+          "url": "https://scl.edge.grupoz.cl/rtcstreaming/live/playlist.m3u8?PlaylistM3UCL",
+          "logo": "https://yt3.googleusercontent.com/ytc/AIdro_kaQB9H7HMksx_iFBnyGIoD5-3LCGRbU5ti7DApGfZRyg=s900-c-k-c0x00ffffff-no-rj"
+        }
+      ]
+    },
+    {
+      "id": "japon",
+      "nombre": "Japón",
+      "canales": [
+        {
+          "nombre": "NHK G (Tokio)",
+          "url": "http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gd01",
+          "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfbkPVaZqEDmols0K-Pzko9_AkiNUo3DutcQ&s"
+        },
+        {
+          "nombre": "J Sports 1",
+          "url": "http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs18",
+          "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtfhHfacbn_YHYl_ECe6r2cC9r9dFAtbPn8g&s"
+        },
+        {
+          "nombre": "J Sports 2",
+          "url": "http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs19",
+          "logo": "https://tvguide.myjcom.jp/monomedia/ch_logo/jcom/logo-65406-169-400x400.png"
+        },
+        {
+          "nombre": "J Sports 3",
+          "url": "http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs21",
+          "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRL5QGiEy1rgt4HB6iseSkWeZnBAwTzIA3Q2A&s"
+        },
+        {
+          "nombre": "J Sports 4",
+          "url": "http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs22",
+          "logo": "https://www.starcat.co.jp/ch/upload/channel/74/jsports4_logo.jpg"
+        },
+        {
+          "nombre": "Nippon TV",
+          "url": "http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gd03",
+          "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnjQdyMPPlKWEDD_Q9_gAH-uhu0HwMmqIBYw&s"
+        },
+        {
+          "nombre": "NHK G (Osaka)",
+          "url": "http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gx06",
+          "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfbkPVaZqEDmols0K-Pzko9_AkiNUo3DutcQ&s"
+        },
+        {
+          "nombre": "Fuji TV",
+          "url": "http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs06",
+          "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTh8F3mg644d-u5TzHbEvUYIg4b2XtsoNcKNQ&s"
+        }
+      ]
+    }
+  ]
+}
