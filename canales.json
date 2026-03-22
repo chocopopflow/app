@@ -471,6 +471,11 @@
           "nombre": "Universal Reality",
           "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/65.m3u8",
           "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Universal_Reality.svg/960px-Universal_Reality.svg.png"
+        },
+        {
+          "nombre": "TCM",
+          "url": "http://201.217.246.42:44310/Live/b10474c9b1ba4a0986b574d1211c065b/local-79_720.m3u8",
+          "logo": "https://bestleague.world/img/tcm.webp"
         }
       ]
     },
@@ -675,11 +680,6 @@
           "nombre": "Al Jazeera (Árabe)",
           "url": "https://live-hls-web-aja-fa.getaj.net/AJA/05.m3u8",
           "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfXB67Y3PI8EwnjI9zwjeeYMhk2iaWQnvDkQ&s"
-        },
-        {
-          "nombre": "TCM",
-          "url": "https://unlimited1-us.dps.live/tcm/tcm.smil/playlist.m3u8",
-          "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/TCM_Logo.svg/320px-TCM_Logo.svg.png"
         },
         {
           "nombre": "Canal 10 Uruguay",
