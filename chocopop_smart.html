@@ -208,26 +208,43 @@ html,body{width:100%;height:100%;font-family:'Barlow',sans-serif;background:var(
 <div id="toast"></div>
 
 <script>
-var CANALES_URL = 'https://chocopopflow.github.io/app/canales.json';
-var channels = {};
+var channels={
+  'Nacionales':[],
+  'Noticias':[],
+  'Deportes':[],
+  'Películas':[],
+  'Infantiles':[],
+  'Música':[],
+  'Variedades':[],
+  'Internacional':[],
+  'GranHermano':[],
+  'Brasil':[],
+  'Chile':[],
+  'Japón':[]
+};
 
-fetch(CANALES_URL)
-  .then(function(r){ return r.json(); })
-  .then(function(data) {
-    data.categorias.forEach(function(cat) {
-      channels[cat.nombre] = cat.canales.map(function(c) {
-        return { name: c.nombre, logo: c.logo, url: c.url };
+// Cargar canales reales desde GitHub
+(function() {
+  fetch('https://chocopopflow.github.io/app/canales.json')
+    .then(function(r){ return r.json(); })
+    .then(function(data) {
+      // Llenar channels con los datos reales
+      Object.keys(channels).forEach(function(k){ delete channels[k]; });
+      data.categorias.forEach(function(cat) {
+        channels[cat.nombre] = cat.canales.map(function(c) {
+          return { name: c.nombre, logo: c.logo, url: c.url };
+        });
       });
+      // Re-ejecutar initApp ahora que channels tiene datos
+      if(typeof initApp === 'function') {
+        initApp();
+      }
+    })
+    .catch(function(err) {
+      console.error('Error:', err);
+      document.querySelector('.ld-txt').textContent = 'ERROR AL CARGAR CANALES';
     });
-    arrancarApp();
-  })
-  .catch(function(err) {
-    console.error('Error cargando canales:', err);
-    document.querySelector('.ld-txt').textContent = 'ERROR AL CARGAR CANALES';
-  });
-
-function arrancarApp() {
-
+})();
 // Lista plana global
 var allChannels=(function(){var l=[];Object.values(channels).forEach(function(a){a.forEach(function(c){l.push(c);});});return l;})();
 
@@ -259,7 +276,7 @@ function initApp(){
   var f=channels['Nacionales'][0];
   if(f)setTimeout(function(){play(f,0);},600);
 }
-// initApp se llama desde arrancarApp() después del fetch
+if(document.readyState==='loading'){document.addEventListener('DOMContentLoaded',initApp);}else{initApp();}
 
 // ─── RELOJ ───
 function startClock(){
@@ -646,8 +663,6 @@ function showToast(msg){
   var t=document.getElementById('toast');t.textContent=msg;t.classList.add('show');
   clearTimeout(t._t);t._t=setTimeout(function(){t.classList.remove('show');},2000);
 }
-
-} // fin arrancarApp
 </script>
 </body>
 </html>
